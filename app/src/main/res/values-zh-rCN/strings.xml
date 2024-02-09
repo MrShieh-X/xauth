@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">XAuth</string>
+    <string name="dialog_about_title">XAuth v1.0</string>
+
+    <string name="menu_about">关于</string>
+    <string name="menu_account_edit">编辑</string>
+    <string name="menu_account_export">导出二维码</string>
+    <string name="menu_account_delete">删除</string>
+
+    <string name="fab_scan">扫描二维码</string>
+    <string name="fab_input">手动输入</string>
+
+    <string name="textview_left_time">剩余时间</string>
+    <string name="textview_scan_qrcode_album">相册</string>
+    <string name="textview_scan_qrcode_tip">请将二维码置入取景框内</string>
+
+    <string name="edittext_hint_enter_account">账号</string>
+    <string name="edittext_hint_enter_issuer">所属平台（如 GitHub，选填）</string>
+    <string name="edittext_hint_enter_key">密钥</string>
+
+    <string name="toast_biometric_error_hardware_unavailable">当前无法使用指纹解锁。</string>
+    <string name="toast_biometric_error_none_enrolled">未录入指纹，无法使用生物识别凭据进行解锁。</string>
+    <string name="toast_fingerprint_authentication_failed">指纹认证失败</string>
+    <string name="toast_fingerprint_authentication_error_wd">认证错误：%s</string>
+    <string name="toast_failed_to_load_private_key">加载私钥失败</string>
+    <string name="toast_failed_to_scan_qrcode">扫描失败，找不到二维码</string>
+    <string name="toast_failed_to_open_file_wd">打开文件失败：%s</string>
+    <string name="toast_failed_to_use_fingerprint_to_authenticate_wd">无法使用指纹进行验证：%s</string>
+    <string name="toast_failed_to_edit">编辑失败</string>
+    <string name="toast_failed_to_delete">删除失败</string>
+    <string name="toast_successfully_copied">复制成功</string>
+    <string name="toast_incomplete_link_missing_secret">链接不完整，缺少 secret。</string>
+    <string name="toast_this_format_is_not_supported">不支持导入该格式</string>
+    <string name="toast_already_exist_same_name_account">已存在同名账号</string>
+
+    <string name="dialog_notice_title">提示</string>
+    <string name="dialog_button_close">关闭</string>
+    <string name="dialog_button_confirm">确认</string>
+    <string name="dialog_no_permissions_title">%s 权限不可用</string>
+    <string name="dialog_no_permissions_message">请在 应用设置-权限 中，允许应用使用设备的 %s 权限以使用该功能。</string>
+    <string name="dialog_no_permissions_button_gotosettings">前往设置</string>
+    <string name="dialog_exception_camera_framework_bug">抱歉，我们在使用 Android 相机时遇到问题。 您可能需要重新启动您的设备。</string>
+    <string name="dialog_loading_message">加载中…</string>
+    <string name="dialog_scanning_qrcode_message">扫描二维码中…</string>
+    <string name="dialog_authentication_by_system_title">验证</string>
+    <string name="dialog_authentication_by_system_use_other_authentication_methods">使用其他验证方式</string>
+    <string name="dialog_authentication_by_system_with_fingerprint_title">识别指纹</string>
+    <string name="dialog_authentication_by_system_message">解锁 XAuth 以使用相关功能</string>
+    <string name="dialog_authentication_by_system_message_with_suggestion_of_using_password">解锁 XAuth 以使用相关功能，如无法通过面部或指纹识别验证，请手动输入密码。</string>
+    <string name="dialog_authentication_by_system_first_message">您需要通过密码或指纹解锁 XAuth，如无法通过面部或指纹识别验证，请手动输入密码。</string>
+    <string name="dialog_authentication_title">验证</string>
+    <string name="dialog_authentication_input_password">输入密码</string>
+    <string name="dialog_authentication_fingerprint">指纹识别</string>
+    <string name="dialog_device_not_secure_title">无法使用</string>
+    <string name="dialog_device_not_secure_message">请前往设置为该设备设置锁屏密码（或指纹识别解锁），否则无法使用该程序的加密功能。</string>
+    <string name="dialog_authentication_or_crypt_failed_title">认证或加/解密失败</string>
+    <string name="dialog_authentication_failed_to_generate_message_wd">创建密钥失败：%s</string>
+    <string name="dialog_unable_to_use_title">无法使用</string>
+    <string name="dialog_unable_to_use_unable_to_generate_keys_message_wd">无法生成密钥：%s</string>
+    <string name="dialog_add_account_enter_key_illegal_char">密钥值中含有非法字符</string>
+    <string name="dialog_add_account_enter_key_too_short">密钥值太短</string>
+    <string name="dialog_add_account_account_empty">账号不能为空</string>
+    <string name="dialog_delete_message_wd">您确定要删除账号“%s”吗？</string>
+    <string name="dialog_edit_account_title">编辑</string>
+    <string name="dialog_failed_to_generate_qrcode_message">生成二维码失败，但您可以复制URI后在其他程序中导入。</string>
+    <string name="dialog_failed_to_generate_qrcode_copy">复制URI</string>
+    <string name="dialog_failed_to_generate_title">生成失败</string>
+    <string name="dialog_failed_to_decode_title">解码失败</string>
+    <string name="dialog_failed_to_add_title">添加失败</string>
+    <string name="dialog_failed_to_add_message_wd">添加“%s”失败：%s</string>
+    <string name="dialog_export_qrcode_title">导出二维码</string>
+    <string name="dialog_add_account_title">添加账号</string>
+    <string name="dialog_about_message">一个生成基于时间的一次性密码（TOTP）的工具。\n作者：MrShiehX\n长按账号项可复制验证码。\n存在BUG：设备已录入指纹时可能无法通过手动输入密码解锁 XAuth。</string>
+    <string name="dialog_about_visit_github_of_this_application">访问 Github 仓库</string>
+    <string name="dialog_about_visit_gitee_of_this_application">访问 Gitee 仓库</string>
+</resources>

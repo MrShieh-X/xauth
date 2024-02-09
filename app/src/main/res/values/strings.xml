@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">XAuth</string>
+    <string name="dialog_about_title">XAuth v1.0</string>
+
+    <string name="menu_about">About</string>
+    <string name="menu_account_edit">Edit</string>
+    <string name="menu_account_export">Export QR code</string>
+    <string name="menu_account_delete">Delete</string>
+
+    <string name="fab_scan">Scan a QR code</string>
+    <string name="fab_input">Enter a setup key</string>
+
+    <string name="textview_left_time">Time Left</string>
+    <string name="textview_scan_qrcode_album">Album</string>
+    <string name="textview_scan_qrcode_tip">Please put the QR code into the viewfinder</string>
+
+    <string name="edittext_hint_enter_account">Account</string>
+    <string name="edittext_hint_enter_issuer">Platform (such as GitHub, optional)</string>
+    <string name="edittext_hint_enter_key">Key</string>
+
+    <string name="toast_biometric_error_hardware_unavailable">Unlocking with fingerprint is currently unavailable.</string>
+    <string name="toast_biometric_error_none_enrolled">Fingerprint is not enrolled and cannot be unlocked using biometric credentials.</string>
+    <string name="toast_fingerprint_authentication_failed">Fingerprint authentication failed</string>
+    <string name="toast_fingerprint_authentication_error_wd">Authentication error: %s</string>
+    <string name="toast_failed_to_load_private_key">Failed to load private key</string>
+    <string name="toast_failed_to_scan_qrcode">Scanning failed, QR code not found</string>
+    <string name="toast_failed_to_open_file_wd">Failed to open file: %s</string>
+    <string name="toast_failed_to_use_fingerprint_to_authenticate_wd">Unable to authenticate using fingerprint: %s</string>
+    <string name="toast_failed_to_edit">Failed to edit</string>
+    <string name="toast_failed_to_delete">Failed to delete</string>
+    <string name="toast_successfully_copied">Copied successfully</string>
+    <string name="toast_incomplete_link_missing_secret">Incomplete link, secret is missing.</string>
+    <string name="toast_this_format_is_not_supported">Importing this format is not supported</string>
+    <string name="toast_already_exist_same_name_account">An account with the same name already exists</string>
+
+    <string name="dialog_notice_title">Notice</string>
+    <string name="dialog_button_close">Close</string>
+    <string name="dialog_button_confirm">Confirm</string>
+    <string name="dialog_no_permissions_title">%s permission is not available</string>
+    <string name="dialog_no_permissions_message">Please allow the app to use the device\'s %s permission in App Settings - Permissions to use this feature.</string>
+    <string name="dialog_no_permissions_button_gotosettings">Go to settings</string>
+    <string name="dialog_exception_camera_framework_bug">Sorry, we\'re having trouble with the Android camera. You may need to restart your device.</string>
+    <string name="dialog_loading_message">Loading…</string>
+    <string name="dialog_scanning_qrcode_message">Scanning the QR code…</string>
+    <string name="dialog_authentication_by_system_title">Authentication</string>
+    <string name="dialog_authentication_by_system_use_other_authentication_methods">Use another authentication method</string>
+    <string name="dialog_authentication_by_system_with_fingerprint_title">Identify Fingerprint</string>
+    <string name="dialog_authentication_by_system_message">Unlock XAuth to use related features</string>
+    <string name="dialog_authentication_by_system_message_with_suggestion_of_using_password">Unlock XAuth to use related features. If you cannot authenticate via facial or fingerprint recognition, enter your password manually.</string>
+    <string name="dialog_authentication_by_system_first_message">You need to unlock XAuth with a password or fingerprint. If you cannot verify by face or fingerprint recognition, please enter the password manually.</string>
+    <string name="dialog_authentication_title">Authentication</string>
+    <string name="dialog_authentication_input_password">Enter Password</string>
+    <string name="dialog_authentication_fingerprint">Identify Fingerprint</string>
+    <string name="dialog_device_not_secure_title">Not Available</string>
+    <string name="dialog_device_not_secure_message">Please go to settings to set a lock screen password (or fingerprint recognition to unlock) for the device, otherwise the encryption function of the program cannot be used.</string>
+    <string name="dialog_authentication_or_crypt_failed_title">Authentication or encryption/decryption failed</string>
+    <string name="dialog_authentication_failed_to_generate_message_wd">Failed to create key: %s</string>
+    <string name="dialog_unable_to_use_title">Unable to use</string>
+    <string name="dialog_unable_to_use_unable_to_generate_keys_message_wd">Unable to generate key: %s</string>
+    <string name="dialog_add_account_enter_key_illegal_char">Key value has illegal character</string>
+    <string name="dialog_add_account_enter_key_too_short">Key value is too short</string>
+    <string name="dialog_add_account_account_empty">Account cannot be empty</string>
+    <string name="dialog_delete_message_wd">Are you sure you want to delete account "%s"?</string>
+    <string name="dialog_edit_account_title">Edit</string>
+    <string name="dialog_failed_to_generate_qrcode_message">Generating the QR code failed, but you can copy the URI and import it in other programs.</string>
+    <string name="dialog_failed_to_generate_qrcode_copy">Copy URI</string>
+    <string name="dialog_failed_to_generate_title">Failed to generate</string>
+    <string name="dialog_failed_to_decode_title">Failed to decode</string>
+    <string name="dialog_failed_to_add_title">Failed to add</string>
+    <string name="dialog_failed_to_add_message_wd">Failed to add "%s": %s</string>
+    <string name="dialog_export_qrcode_title">Export QR code</string>
+    <string name="dialog_add_account_title">Add account</string>
+    <string name="dialog_about_message">A tool to generate Time-based One-Time Passwords (TOTP).\nAuthor: MrShiehX\nLong press the account item to copy the verification code.\nBUG exists: XAuth may not be unlocked by manually entering a password when the device has registered fingerprints.</string>
+    <string name="dialog_about_visit_github_of_this_application">Visit the GitHub repository</string>
+    <string name="dialog_about_visit_gitee_of_this_application">Visit the Gitee repository</string>
+</resources>
